@@ -127,7 +127,7 @@ class JinZhu:
                 with open(self.config_path, 'r', encoding='utf-8') as f:
                     cfg = json.load(f)
                 merged = {**DEFAULT_MODEL, **cfg}
-                logging.info(f"[Model] 加载成功: v{merged.get('version', '?')} {merged.get('algo_version', '?')}")
+                logging.info(f"[Model] 加载成功: v{merged.get('version', '?')} {merged.get('algo_version', '?').lstrip('v')}")
                 return merged
             except Exception as e:
                 logging.error(f"[Model] 加载失败: {e},使用默认参数")
