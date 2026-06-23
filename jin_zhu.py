@@ -74,7 +74,7 @@ DEFAULT_MODEL = {
     'cold_miss_front': 0.40, 'cold_cycle_front': 0.30, 'cold_freq_front': 0.30,
     'cold_miss_back': 0.30, 'cold_cycle_back': 0.40, 'cold_freq_back': 0.30,
     'neighbor_bonus': 0.03, 'tail_concentration': 0.10, 'gamma': 0.88,
-    'version': 1, 'algo_version': 'v8.5', 'evolution_log': [],
+    'version': 1, 'algo_version': 'v8.7', 'evolution_log': [],
     'lock_config': {},
 }
 
